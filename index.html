@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Etsy Tag Studio</title>
+  <meta name="description" content="Privacy policy for the Etsy Tag Studio Chrome extension. The extension collects no data.">
+  <style>
+    :root {
+      --text: #1a1d22;
+      --text-soft: #5b6573;
+      --bg: #ffffff;
+      --bg-soft: #f6f7f9;
+      --border: #e4e6eb;
+      --accent: #0f9e8e;
+      --accent-strong: #0b7d70;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 8px;
+    }
+    .logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #2dd4bf, #0f9e8e);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    .product {
+      font-size: 14px;
+      color: var(--text-soft);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 4px 0 8px;
+      letter-spacing: -0.8px;
+    }
+    .effective {
+      color: var(--text-soft);
+      font-size: 14px;
+      margin-bottom: 32px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 36px;
+      margin-bottom: 12px;
+      letter-spacing: -0.3px;
+    }
+    p, ul {
+      margin: 0 0 14px;
+    }
+    strong { color: var(--text); }
+    .callout {
+      background: var(--bg-soft);
+      border-left: 4px solid var(--accent);
+      padding: 12px 16px;
+      margin: 16px 0;
+      border-radius: 6px;
+      font-size: 17px;
+    }
+    .callout strong { color: var(--accent-strong); }
+    ul {
+      padding-left: 22px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    code {
+      background: var(--bg-soft);
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-family: "SFMono-Regular", Consolas, monospace;
+      font-size: 14px;
+    }
+    a {
+      color: var(--accent-strong);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+    .divider {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+    .footer-note {
+      color: var(--text-soft);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">TS</div>
+      <div>
+        <div class="product">Etsy Tag Studio</div>
+        <h1 style="margin:2px 0 0;">Privacy Policy</h1>
+      </div>
+    </div>
+    <div class="effective">Effective date: May 16, 2026</div>
+
+    <p>This Privacy Policy describes how the <strong>Etsy Tag Studio</strong> Chrome extension ("the extension") handles information.</p>
+
+    <h2>What we collect</h2>
+    <div class="callout"><strong>Nothing.</strong></div>
+    <p>Etsy Tag Studio does not collect, transmit, store, or sell any personal information, browsing history, listing data, user activity, account information, or any other data about you or the listings you research.</p>
+
+    <h2>How the extension works</h2>
+    <p>When you click the extension's toolbar icon while viewing an Etsy listing page, Etsy Tag Studio reads the public content of that single page locally in your browser. It extracts publicly-visible listing metadata — the seller's tags when exposed in the page, keywords from the listing title, and category breadcrumb — and displays them in the extension popup.</p>
+    <p>All processing happens on your computer. The extension does not send any data to us, to Etsy, or to any third party. When you close the popup, the extracted data is discarded from memory.</p>
+
+    <h2>Permissions explained</h2>
+    <p>The extension requests the following Chrome permissions, each for a single specific purpose:</p>
+    <ul>
+      <li><strong><code>activeTab</code></strong> — to read the Etsy listing tab you're currently viewing when you click the toolbar icon.</li>
+      <li><strong><code>storage</code></strong> — reserved for future user preference storage (e.g. a saved tag library in a planned Pro tier). Not actively used in v0.1.0.</li>
+      <li><strong><code>scripting</code></strong> — to inject the content script into the active Etsy tab when the popup opens, in case the script isn't already loaded.</li>
+      <li><strong>host permission for <code>*://*.etsy.com/*</code></strong> — to read Etsy listing pages. The extension never accesses any other website.</li>
+    </ul>
+
+    <h2>Third parties</h2>
+    <p>The extension communicates with no third-party servers. It has no analytics, no telemetry, no advertising, and no integrations with external services.</p>
+
+    <h2>Cookies</h2>
+    <p>The extension does not use cookies.</p>
+
+    <h2>Children's privacy</h2>
+    <p>The extension is not directed at children under 13 and does not knowingly collect information from anyone, regardless of age.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the <strong>Effective date</strong> above will be updated and a new version of the extension will be published. There is no notification mechanism because the extension has no way to contact users — we have no email, identifier, or persistent record of who uses it.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy or the extension can be sent to: <a href="mailto:nextplaylegends@gmail.com">nextplaylegends@gmail.com</a></p>
+
+    <hr class="divider">
+    <p class="footer-note">Etsy Tag Studio is an independent Chrome extension. It is not affiliated with, endorsed by, or sponsored by Etsy, Inc.</p>
+  </div>
+</body>
+</html>
