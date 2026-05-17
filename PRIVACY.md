@@ -43,4 +43,4 @@ If this policy changes, the **Effective date** above will be updated and a new v
 
 ## Contact
 
-Questions about this policy or the extension can be sent to: **nextplaylegends@gmail.com**
+Questions about this policy or the extension can be sent to: **nextplylegends@gmail.com**
